@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador y Descriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <main class="">
+
+        <header>
+            <div class="logo">
+                <h1><img src="imagenes/Logo.png" alt="Logo Alura Latam"></h1>
+            </div>
+        </header>
+        <section>
+            <aside>
+                <div id="boxderecho">
+                    <img id="imgmuñeco" src="imagenes/Muñeco.png" alt="Muñeco observando">
+                    <h2 id="text1">Ningún mensaje fue encontrado </h2>
+                    <p id="text2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <input id="btnCopiar" type="submit" value="Copiar" onclick="copiarTexto()">
+                </div>
+            </aside>
+
+            <article id="art1">
+                <div id="boxsuperior">
+                    <textarea cols="70" rows="10" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+
+                </div>
+            </article>
+
+            <article id="art2">
+
+                <div id="boxinferior">
+                    <img id="imgexclamacion" src="imagenes/bi_exclamation-circle-fill.png" alt="signo exclamacion">
+                    <p id="text3">Solo letras minúsculas y sin acentos</p>
+                </div>
+
+            </article>
+            <article id="art3">
+                <div id="input1">
+                    <input id="inputencriptar" type="submit" value="Encriptar" onclick="encriptarTexto()">
+                    <input id="inpurtDesencriptar" type="submit" value="Desencriptar" onclick="desencriptarTexto()">
+                </div>
+            </article>
+
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

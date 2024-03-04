@@ -1,0 +1,136 @@
+*{margin:0;padding:0;}
+/*html {background-color:#F3F5FC;}*/
+body{
+    width:1440px;height: 1024;;margin: auto;
+    background-color:#F3F5FC;
+}
+header {
+    width: 1440px;height: 60px;background-color: #F3F5FC; float: none; padding: 25px 0px 0px 0px ;
+    
+}
+main{
+    width: 1440px;height: 924px;background-color: #F3F5FC;
+}
+/*/* Arriba | Derecha | Abajo | Izquierda */
+#boxderecho{
+    background: white;
+    width: 430px;
+    height: 850px;
+    float:right;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 30px;
+    border-width: 0.2px;
+    border-style: solid;
+    padding: 0px 0px 0px 0px ;
+    overflow: hidden;
+    text-align: center;
+
+    
+    }
+    #imgmuñeco{
+        width:400px; height: 750x;
+        padding: 170px 15px 0px 15px;
+
+    }
+
+#text1{ /* Arriba | Derecha | Abajo | Izquierda */
+    width: 336;
+    height:80px;
+    padding: 0px 25px 0px 25px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#text2{
+    width: 430px;
+    height: 125px;
+    text-align: center;
+    font-size: 20px;
+    color:#787a80 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+#btnCopiar{/*me quede aqui falta corregir */
+    width: 350px;height: 80px;background:white;
+    font-weight: bold;
+    color: #182b70;
+    border-color: #182b70;
+    border-radius: 30px;
+      border-width: 0.2px;
+    border-style: solid;
+    text-align: center;
+    
+}
+
+#art1{
+    width: 1000px;height: 650px;background-color:#F3F5FC;
+    text-align: center;
+    
+}
+#boxsuperior{
+    width: 1000px;height: 480px;background-color:#F3F5FC;
+    text-align:center;
+    padding:  120px 0px 0px 0px;
+    border: none;
+    border-color: white;
+    }
+#mensaje{
+    width: 700px;height: 450px;
+    border-color:while;
+    border-radius: 0px;
+    border-width: 0px;
+    border-style: solid;
+    background-color:#F3F5FC;
+    color:#182b70;
+    font-style:0;
+    font-weight:0;
+    font-size:50px;
+    resize:none;
+}
+#art2{ /*/* Arriba | Derecha | Abajo | Izquierda */
+    width: 750px;height: 95px;background:#F3F5FC;
+    text-align: center;
+    padding:10px 0em 0em 150px;
+
+}
+#imgexclamacion{
+    float: left;
+    padding: 0 10px;
+    
+}
+#text3{
+    float: left; }
+    
+
+#art3{
+        width: 1000px;
+        height:400px;
+        background:#F3F5FC;
+        text-align: center;
+
+
+}
+#inputencriptar{
+    width: 350px;height: 80px;background:#182b70;
+    font-weight:bold;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    border-width: 0.2px;
+    border-style: solid;
+}
+
+
+#inpurtDesencriptar{
+    width: 350px;height: 80px;background:#c2c6cf;
+    font-weight: bold;
+    color: #182b70;
+    border-color: #182b70;
+    border-radius: 30px;
+    border-width: 0.2px;
+    border-style: solid;
+    
+
+}
